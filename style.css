@@ -281,3 +281,131 @@ ul p{
     padding-top: 5px;
     font-size: 0.8rem;
 }
+
+/** For Responcive **/
+
+/* =========================
+   Tablet (768px)
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-search{
+        width: 100%;
+        order: 3;
+    }
+
+    .panel{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-ops{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .hero-shop{
+        justify-content: center;
+    }
+
+    .box{
+        width: 48%;
+    }
+
+    .foot-panel2{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
+/* =========================
+   Mobile (480px)
+========================= */
+
+@media (max-width: 480px) {
+
+    .navbar{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav-logo,
+    .nav-address,
+    .nav-lang,
+    .nav-sign,
+    .nav-retu,
+    .cart{
+        width: 100%;
+    }
+
+    .nav-search{
+        width: 100%;
+    }
+
+    .search-select{
+        width: 60px;
+    }
+
+    .hero-section{
+        height: 250px;
+        background-position: center;
+    }
+
+    .hero-msg{
+        width: 95%;
+        font-size: 12px;
+        padding: 10px;
+        text-align: center;
+        height: auto;
+    }
+
+    .box{
+        width: 95%;
+    }
+
+    .box-img{
+        height: 220px;
+    }
+
+    .panel{
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .panel-ops p{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .panel-deals{
+        margin-top: 10px;
+    }
+
+    .foot-panel2{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .pages{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pages a{
+        margin-right: 0;
+    }
+}
